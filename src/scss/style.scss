@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Jujutsu';
+    src: url('../font/Jujutsu\ Kaisen.ttf');
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+.App {
+    background:
+        radial-gradient(farthest-side at -33.33% 50%, #0000 52%, #1c1c1c 54% 57%, #0000 59%) 0 calc(128px/2),
+        radial-gradient(farthest-side at 50% 133.33%, #0000 52%, #1c1c1c 54% 57%, #0000 59%) calc(128px/2) 0,
+        radial-gradient(farthest-side at 133.33% 50%, #0000 52%, #1c1c1c 54% 57%, #0000 59%),
+        radial-gradient(farthest-side at 50% -33.33%, #0000 52%, #1c1c1c 54% 57%, #0000 59%),
+        #0e0e0e;
+    background-size: calc(128px/4.667) 128px, 128px calc(128px/4.667);
+
+
+
+    .homeCard {
+        background-image: url('../img/homecard.gif');
+        background-size: cover;
+        background-position: right;
+        background-repeat: no-repeat;
+
+        border: 1px solid white;
+    }
+
+    .yuta{
+        animation: yuta 2s infinite ease-in-out;
+    }
+
+    @keyframes yuta {
+        0% {
+            transform: translateY(0px);
+        }
+        50% {
+            transform: translateY(1px);
+        }
+        100% {
+            transform: translateY(0px);
+        }
+    }
+}
