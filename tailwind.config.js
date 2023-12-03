@@ -23,10 +23,6 @@ module.exports = {
           600: '#524B49',
         },
         polaire: '#F6F6F6',
-        rose: '#BB74B6',
-        lightgreen: '#CAF8B5',
-        lightrose: '#FF3E83',
-        lightyellow: '#FFDC61',
       },
       fontFamily: {
         sans: ['Roboto', 'sans-serif'],

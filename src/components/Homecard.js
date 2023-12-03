@@ -3,7 +3,7 @@ import yuta from "../img/yuta.webp";
 export default function Homecard() {
   return (
     <div id="top" className="fullHome flex justify-center items-center">
-      <div className="flex flex-col lg:flex-row justify-center items-center">
+      <div className="flex flex-col lg:flex-row justify-center items-center gap-6 sm:gap-0">
         <div className="flex justify-center items-center gap-2 overflow-hidden">
           <div className="homeCard w-5/6 max-w-3xl flex justify-center rounded-full bg-noir overflow-hidden relative">
             <img
@@ -13,7 +13,6 @@ export default function Homecard() {
               alt="yuta"
               className="yuta w-4/6 z-10"
             />
-              <div class="light"></div>
           </div>
         </div>
         <div data-aos="fade-up" className="flex flex-col justify-center items-center gap-3 py-4">

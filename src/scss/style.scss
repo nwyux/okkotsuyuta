@@ -11,6 +11,11 @@
     scroll-behavior: smooth;
 }
 
+::selection {
+    background: #444444;
+    color: #F6F6F6;
+}
+
 .App {
     background:
         radial-gradient(farthest-side at -33.33% 50%, #0000 52%, #1c1c1c 54% 57%, #0000 59%) 0 calc(128px/2),
