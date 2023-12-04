@@ -21,6 +21,8 @@ export default function Achievements() {
                     <h1 className="text-2xl font-jjk">{title}</h1>
                     <img
                       className="max-w-xs border border-zinc-400 rounded"
+                      data-aos="fade-in"
+                      data-aos-duration="1000"
                       src={img}
                       alt={alt}
                     />
@@ -29,7 +31,7 @@ export default function Achievements() {
                   <p className="text-sm font-bold items-center break-all">
                     {description}
                   </p>
-                  <p className="text-sm font-bold items-center break-all py-2 px-2 border border-moon-200  bg-moon-600">
+                  <p className="text-sm font-bold items-center break-all py-2 px-2 border border-moon-200 bg-moon-800 rounded-md">
                     {category}
                   </p>
                   </div>

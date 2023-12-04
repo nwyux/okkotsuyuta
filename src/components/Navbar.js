@@ -10,8 +10,8 @@ export default function Navbar() {
           </div>
           <div className="flex items-center">
             <a href="#" className="hidden sm:block sm:text-xl font-bold mr-4 hover:underline">Home</a>
-            <a href="#about" className="hidden sm:block sm:text-xl font-bold mr-4 hover:underline">About</a>
             <a href="#achievements" className="hidden sm:block sm:text-xl font-bold mr-4 hover:underline">Achievements</a>
+            <a href="#about" className="hidden sm:block sm:text-xl font-bold mr-4 hover:underline">About</a>
           </div>
         </header>
     </div>

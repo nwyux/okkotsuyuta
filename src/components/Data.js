@@ -1,5 +1,7 @@
 import vsgeto from '../img/vsgeto.webp'
 
+import vsyuji from '../img/vsyuji.jpeg'
+
 const achievements = [
     {
         id: 1,
@@ -11,10 +13,10 @@ const achievements = [
     },
     {
         id: 2,
-        title: 'Všetko je možné',
-        description: 'Všetko je možné, len treba chcieť a urobiť pre to všetko.',
-        img: vsgeto,
-        alt: 'Všetko je možné',
+        title: 'Mission rescue to save Yuji Itadori',
+        description: 'Yuji Itadori was sentenced to death by the Jujutsu School. I went to rescue him and fought against the Jujutsu School.',
+        img: vsyuji,
+        alt: 'Okkotsu Yuta vs Yuji Itadori',
         category: 'Rescue mission',
     },
 ]
