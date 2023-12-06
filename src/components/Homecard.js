@@ -19,7 +19,7 @@ export default function Homecard() {
         <h1 className="text-polaire text-2xl font-bold flex">Hi, I'm <p className="pl-2 font-jjk">Okkotsu Yuta</p>.</h1>
         <p data-aos="fade-left" data-aos-duration="1000" className="text-zinc-400 text-sm font-bold w-56 sm:w-96">I'm a second year student at Tokyo Jujutsu High and a Special Grade Sorcerer.</p>
         <div className="flex justify-center items-center gap-2">
-        <a href="#about" className="text-polaire text-sm rounded font-bold py-2 px-2 bg-black border border-polaire hover:bg-zinc-800">Discover me</a>
+        <a href="#about" className="text-polaire text-sm rounded font-bold py-2 px-2  border border-polaire hover:bg-zinc-800">Discover me</a>
         <a href="#achievements" className="text-noir text-sm rounded font-bold py-2 px-2 bg-polaire border border-polaire hover:bg-zinc-200">My achievements</a>
         </div>
         </div>
