@@ -2,7 +2,7 @@ import logo from '../img/jjklogo.png';
 
 export default function Navbar() {
   return (
-    <div className="text-polaire font-jjk sticky top-0 left-0 right-0 z-40">
+    <div className="navbar text-polaire font-jjk sticky top-0 left-0 right-0 z-40">
         <header className="flex justify-around items-center py-4 px-8">
           <div className="flex items-center justify-center sm:justify-normal gap-2">
             <img src={logo} alt="logo" className="w-1/6" />

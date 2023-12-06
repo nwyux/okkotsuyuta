@@ -10,7 +10,7 @@ export default function Achievements() {
         <h1 className="text-4xl font-jjk">My achievements</h1>
       </div>
 
-      <div className="flex flex-col mx-auto justify-center items-center gap-4 py-4 ">
+      <div className="flex flex-col mx-auto justify-center items-center gap-6 py-4 ">
         {achievements.map((achievement) => {
           const { id, title, description, img, alt, category } = achievement;
           return (
