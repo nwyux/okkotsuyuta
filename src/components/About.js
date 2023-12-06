@@ -51,7 +51,9 @@ export default function About() {
             <p data-aos="fade-right" data-aos-duration="700" className="absolute top-70 text-xs font-bold items-center break-all px-2 text-neutral-200 max-w-sm mr-48 sm:mr-72 sm:pr-24">
               In 2017, Suguru Geto, a dangerous curse user, came to kill students and targetted me in the Tokyo Jujutsu High School. I fought him and won.
             </p>
-
+            <p data-aos="fade-left" data-aos-duration="700" className="absolute top-94 text-xs font-bold items-center break-all px-2 text-neutral-200 max-w-sm ml-48 sm:ml-72 sm:pl-24">
+              In 2018, the School Council commanded me to kill Yuji Itadori, a first year student, because he ate the finger of Ryomen Sukuna, the King of Curses. I killed him.
+            </p>
 
         </div>
 

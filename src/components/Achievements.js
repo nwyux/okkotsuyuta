@@ -15,12 +15,12 @@ export default function Achievements() {
           const { id, title, description, img, alt, category, date } = achievement;
           return (
             <>
-              <div data-aos="fade-up" data-aos-duration="700" key={id} className=" projectCard flex flex-col justify-center items-center gap-4 py-4 border border-zinc-400 rounded-lg max-w-xl">
+              <div data-aos="fade-up" data-aos-duration="700" key={id} className="w-screen projectCard flex flex-col justify-center items-center gap-4 py-4 border border-zinc-400 rounded-lg max-w-xl">
                 <div className="flex flex-col sm:flex-row justify-center items-center gap-4 px-4">
                   <div className="flex flex-col justify-center items-center gap-4 py-2">
                     <h1 className="text-2xl font-jjk" data-aos="fade-right">{title}</h1>
                     <img
-                      className="sm:max-w-xs border border-zinc-400 rounded"
+                      className="w-72 sm:max-w-xs border border-zinc-400 rounded"
                       data-aos="fade-in"
                       data-aos-duration="1000"
                       src={img}

@@ -14,6 +14,7 @@ module.exports = {
       },
       spacing: {
         70: '17.5rem',
+        94: '23.5rem',
       },
       colors: {
         noir: '#0E0E0E',
