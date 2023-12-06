@@ -12,6 +12,9 @@ module.exports = {
       margin: {
         15: '4rem',
       },
+      spacing: {
+        70: '17.5rem',
+      },
       colors: {
         noir: '#0E0E0E',
         moon: {

@@ -10,7 +10,7 @@ const achievements = [
         img: vsgeto,
         alt: 'Okkotsu Yuta vs Suguru Geto',
         category: 'Fight',
-        date: 'October 31, 2018',
+        date: 'December 24, 2017',
     },
     {
         id: 2,
@@ -19,7 +19,7 @@ const achievements = [
         img: vsyuji,
         alt: 'Okkotsu Yuta vs Yuji Itadori',
         category: 'Rescue mission',
-        date: 'January 1, 2019',
+        date: 'March 12, 2018',
     },
 ]
 

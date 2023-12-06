@@ -5,7 +5,7 @@ export default function Homecard() {
     <div id="top" className="fullHome flex justify-center items-center">
       <div className="flex flex-col lg:flex-row justify-center items-center gap-6 sm:gap-0">
         <div className="flex justify-center items-center gap-2 overflow-hidden">
-          <div className="homeCard w-5/6 max-w-3xl flex justify-center rounded-full bg-noir overflow-hidden relative">
+          <div className="homeCard w-5/6 max-w-3xl xl:max-w-5xl flex justify-center rounded-full bg-noir overflow-hidden relative">
             <img
               src={yuta}
               data-aos="fade-in"
