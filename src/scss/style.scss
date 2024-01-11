@@ -9,6 +9,11 @@
 
 * {
     scroll-behavior: smooth;
+    margin: 0;
+}
+
+html {
+    overflow-x: hidden;
 }
 
 ::selection {

@@ -15,7 +15,7 @@ export default function Achievements() {
           const { id, title, description, img, alt, category, date } = achievement;
           return (
             <>
-              <div data-aos="fade-up" data-aos-duration="700" key={id} className="w-screen projectCard flex flex-col justify-center items-center gap-4 py-4 border border-zinc-400 rounded-lg max-w-xl">
+              <div data-aos="fade-up" data-aos-duration="700" key={id} className="w-screen projectCard flex flex-col justify-center items-center gap-4 py-4 border border-zinc-400 rounded-lg max-w-xs sm:max-w-xl">
                 <div className="flex flex-col sm:flex-row justify-center items-center gap-4 px-4">
                   <div className="flex flex-col justify-center items-center gap-4 py-2">
                     <h1 className="text-2xl font-jjk" data-aos="fade-right">{title}</h1>
@@ -28,7 +28,7 @@ export default function Achievements() {
                     />
                   </div>
                   <div className="flex flex-col justify-center items-center gap-2 mt-8">
-                  <p className="text-sm font-bold items-center break-all max-w-sm" data-aos="fade-in">
+                  <p className="text-sm text-justify font-bold items-center break-all max-w-sm" data-aos="fade-in">
                     {description}
                   </p>
                   <p className="text-sm font-bold items-center break-all py-2 px-2 border border-moon-200 bg-moon-800 rounded-md">

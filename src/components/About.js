@@ -17,9 +17,6 @@ export default function About() {
 
     tl.fromTo('#arrow', { y: 0 }, { y: 100, ease: 'power1.inOut' });
 
-    // Additional animations can be added within the timeline
-
-    // Cleanup on unmount
     return () => {
       tl.kill();
     };
@@ -33,7 +30,6 @@ export default function About() {
 
        
         <div className="flex flex-col mx-auto justify-center items-center gap-6 py-4">
-            {/* vertical hr */}
             <div className="flex justify-center items-center gap-2">
                 <div data-aos="fade-up" className="w-1 h-96 bg-zinc-400 rounded-lg"></div>
                 <div data-aos="fade-up" className="w-5 h-5 rounded-full bg-polaire absolute top-28"></div>
@@ -42,16 +38,16 @@ export default function About() {
                 <div data-aos="fade-up" className="w-5 h-5 rounded-full bg-polaire absolute top-96"></div>
             </div>
 
-            <p data-aos="fade-right" data-aos-duration="700" className="absolute top-24 text-xs font-bold items-center break-all px-2 text-neutral-200 max-w-sm mr-48 sm:mr-72 sm:pr-24">
+            <p data-aos="fade-right" data-aos-duration="700" className="absolute top-24 text-xs font-bold items-center break-all px-2 text-neutral-200 w-40 sm:w-full max-w-xs sm:max-w-sm mr-48 sm:mr-72 sm:pr-24">
               In 2012, I was 11 when my young lover Rika Orimoto was killed by a car. I've made a contract with her soul and since then I have been living with her curse.
             </p>
-            <p data-aos="fade-left" data-aos-duration="700" className="absolute top-40 text-xs font-bold items-center break-all px-2 text-neutral-200 max-w-sm ml-48 sm:ml-72 sm:pl-24">
+            <p data-aos="fade-left" data-aos-duration="700" className="absolute top-40 text-xs font-bold items-center break-all px-2 text-neutral-200 w-40 sm:w-full max-w-xs sm:max-w-sm ml-48 sm:ml-72 sm:pl-24">
               In 2013, Gojo Satoru, a Special Grade Sorcerer at that time, went to find me due to some incidents in school. He took me with him to the Tokyo Jujutsu High School.
             </p>
-            <p data-aos="fade-right" data-aos-duration="700" className="absolute top-70 text-xs font-bold items-center break-all px-2 text-neutral-200 max-w-sm mr-48 sm:mr-72 sm:pr-24">
+            <p data-aos="fade-right" data-aos-duration="700" className="absolute top-70 text-xs font-bold items-center break-all px-2 text-neutral-200 w-40 sm:w-full max-w-xs sm:max-w-sm mr-48 sm:mr-72 sm:pr-24">
               In 2017, Suguru Geto, a dangerous curse user, came to kill students and targetted me in the Tokyo Jujutsu High School. I fought him and won.
             </p>
-            <p data-aos="fade-left" data-aos-duration="700" className="absolute top-94 text-xs font-bold items-center break-all px-2 text-neutral-200 max-w-sm ml-48 sm:ml-72 sm:pl-24">
+            <p data-aos="fade-left" data-aos-duration="700" className="absolute top-94 text-xs font-bold items-center break-all px-2 text-neutral-200 w-40 sm:w-full max-w-xs sm:max-w-sm ml-48 sm:ml-72 sm:pl-24">
               In 2018, the School Council commanded me to kill Yuji Itadori, a first year student, because he ate the finger of Ryomen Sukuna, the King of Curses. I killed him.
             </p>
 
